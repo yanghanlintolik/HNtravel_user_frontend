@@ -1,0 +1,34 @@
+.skeleton-line {
+	width: 100%;
+	height: 30upx;
+	background-color: #f2f2f2;
+}
+
+.skeleton-line-short30 {
+	width: 30%;
+}
+
+.skeleton-line-short40 {
+	width: 40%;
+}
+
+.skeleton-line-short50 {
+	width: 50%;
+}
+
+.skeleton-active {
+	background-image: linear-gradient(90deg, #f2f2f2 25%, #e6e6e6 37%, #f2f2f2 63%);
+	background-size: 400% 100%;
+	background-position: 100% 50%;
+	animation: skeleton-loading 1.4s ease infinite;
+}
+
+@keyframes skeleton-loading {
+	0% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}

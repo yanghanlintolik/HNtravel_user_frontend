@@ -1,0 +1,288 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/guide/speech_test",
+		// 	"style":{
+		// 	    "app-plus":{"titleNView":false}
+		// 	   }
+		// },
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom" 
+			}
+		},
+		{
+			"path": "pages/assistant/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+			
+		{
+			"path": "pages/guide/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/register/fankui",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/register/fankuiList",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/guide/strategy-Customized",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		
+		{
+			"path": "pages/guide/scenicLine",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/register/question",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/quanJing",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/relitu-consume",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/me/vipMessage",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/scenicSpot",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/passengerFlow/forecast",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/traffic/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/food",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/culture",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/virtual",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		
+		{
+			"path": "pages/index/vipRecommender",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "components/xi-check/xi-check",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/me/label",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		
+		{
+			"path": "pages/index/index-jingqu",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/search-function",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/guide/index-big",
+			"style": {}
+		},
+		{
+			"path": "pages/guide/strategy-like",
+			"style": {}
+		},
+		{
+			"path": "pages/me/theme-setting",
+			"style": {}
+		},
+		
+		{
+			"path": "pages/index/search-scenicSpot",
+			"style": {}
+		},
+		
+		{
+			"path": "pages/me/me-message",
+			"style": {}
+		},
+		
+		{
+			"path": "pages/guide/city-weather",
+			"style": {}
+		},
+		{
+			"path": "pages/traffic/road-list",
+			"style": {}
+		},
+		{
+			"path": "pages/traffic/road-detail",
+			"style": {}
+		},
+		{
+			"path": "pages/passengerFlow/search-forecast",
+			"style": {}
+		}
+
+	],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示" // 高速公路行驶持续后台定位
+		}
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		    "navigationBarBackgroundColor": "#fff",
+		    "navigationBarTitleText": "标题",
+		    "navigationBarTextStyle": "black",
+		    "navigationStyle": "custom"
+		
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0096d8",
+		"borderStyle": "black",
+		"backgroundColor": "#fefefe",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/main_home.png",
+				"selectedIconPath": "static/main_home_press.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/scenicSpot",
+				"iconPath": "static/main_collect.png",
+				"selectedIconPath": "static/main_collect_press.png",
+				"text": "景点"
+			},
+			{
+				"pagePath": "pages/assistant/index",
+				"iconPath": "static/机器人1.png",
+				"selectedIconPath": "static/机器人.png",
+				"text": "助手"
+			},
+			{
+				"pagePath": "pages/guide/index",
+				"iconPath": "static/main_guide.png",
+				"selectedIconPath": "static/main_guide_press.png",
+				"text": "攻略"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"iconPath": "static/main_user.png",
+				"selectedIconPath": "static/main_user_press.png",
+				"text": "我的"
+			}
+		]
+	}
+}
